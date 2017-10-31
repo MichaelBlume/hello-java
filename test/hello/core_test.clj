@@ -3,4 +3,4 @@
 
 (deftest test-greeter
   (let [greeter (hello.HelloFrontend/getGreeter "Hello")]
-    (is (= "Hello, world!" (.greet greeter "world")))))
+    (is (= "Hello, java!" (.greet greeter "java")))))
